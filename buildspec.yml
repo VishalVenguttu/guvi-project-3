@@ -3,6 +3,8 @@ version: 0.2
 env:
   variables:
     ECR_REPO: brain-tasks-app
+    AWS_DEFAULT_REGION: eu-north-1
+    CLUSTER_NAME: brain-tasks-cluster
 
 phases:
   install:
